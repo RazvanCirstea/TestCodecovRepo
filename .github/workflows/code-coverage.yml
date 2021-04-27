@@ -25,6 +25,7 @@ jobs:
       uses: codecov/codecov-action@v1
       with:
         flags: Apex
+        token: a46cdb4f-a3f1-4043-b134-f04a6d9e3840
         # files: ./test-result.txt
     # - name: Delete Scratch Org
     #   run: node_modules/sfdx-cli/bin/run force:org:delete --noprompt
